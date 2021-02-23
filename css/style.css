@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Dosis&display=swap');
+
+.navigation{
+    position: fixed;
+    display: grid;
+    grid-template-columns: 10% 60% 10% 10% 10%;
+    text-align: center;
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 0;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.menu{
+    font-family: 'Dosis', sans-serif;
+    color: rgb(53, 53, 53);
+}
+
+.banner{
+    width: 85%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 70px;
+}
+
+.h-banner{
+    text-align: right;
+    font-size: 4rem;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 70px 40px 0 0;
+    color: rgba(0, 0, 0, 0.815)
+}
+
+.img-banner{
+    position: relative;
+    width: 100%;
+}
+
+.h-portfolio{
+    font-size: 3rem;
+    font-family: 'Dosis', sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+    padding-top: 100px;
+    text-align: center;
+}
+
+.portfolio-item{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 0;
+}
+
+.img-portfolio{
+    width: 100%
+}
+
+.btn-banner{
+    background-color: rgba(0, 0, 0, 0.815);
+    color: #fff;
+    padding: 15px 40px;
+    font-family: 'dosis', sans-serif;
+    float: right;
+    margin: 60px 40px 0 0;
+}
+
+.alt-text{
+    font-family: 'Dosis', sans-serif;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.h-skils{
+    font-size: 3rem;
+    font-family: 'Dosis', sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+    padding: 80px 0 50px 0;
+    text-align: center;
+}
+
+.skils-item{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(7, 14%);
+}
+
+.img-skils{
+    height: 80px;
+}
+
+#contact{
+    margin-top: 150px;
+}
+
+.contact-container{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.h-contact{
+    font-size: 6rem;
+    font-family: 'cormorant garamond', serif;
+    position: relative;
+    color: rgba(0, 0, 0, 0.836);
+    text-align: right;
+    padding-right: 30px;
+}
+
+.item-contact{
+    margin: 25px 0;
+}
+
+.h-item{
+    font-size: 10pt;
+    font-family: 'dosis', sans-serif;
+    color: rgba(0, 0, 0, 0.486);
+    font-weight: 800;
+}
+
+.text-contact{
+    font-size: 16pt;
+    font-family: 'dosis', sans-serif;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.social{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    width: 10%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+
+.img-social{
+    width: 100%;
+}
+
+#footer{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: rgba(255, 255, 255, 0.514);
+    font-family: 'dosis', sans-serif;
+    font-size: 10pt;
+    padding: 15px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 920px){
+    .banner{
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+    .h-banner{
+        text-align: center;
+    }
+
+    .skils-item{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px;
+    }
+
+    .img-skils{
+        width: 80%;
+        height: 90%;
+    }
+
+    .contact-container{
+        display: block;
+    }
+
+    .h-contact{
+        font-size: 4rem;
+        text-align: left;
+    }
+
+    .social{
+        width: 40%;
+    }
+}
