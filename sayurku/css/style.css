@@ -1,0 +1,172 @@
+:root{
+    --primary: #ffffff;
+    --second: #70E000;
+    --font1st: #3a3a3a;
+    --font2nd: #666666;
+}
+
+@font-face {
+    font-family: tajawal;
+    src: url(Tajawal-Bold.ttf);
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+}
+
+.img-logo{
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.img-banner{
+    position: absolute;
+}
+
+.heading-banner{
+    position: relative;
+    margin-left: 43%;
+    padding-top: 150px;
+}
+
+.h1-banner{
+    font-family: tajawal;
+    color: var(--font1st);
+    font-size: 60px;
+}
+
+.text{
+    font-family: 'open sans';
+    color: var(--font2nd);
+    font-size: 18px;
+    line-height: 191%;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.btn-primary{
+    padding: 12px 35px;
+    background-color: var(--second);
+    border-radius: 30px;
+    font-family: 'open sans';
+    color: var(--font1st);
+    font-weight: bold;
+    box-shadow: 0 15px 30px #70e0009a;
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    box-shadow: none;
+}
+
+.img-tomat{
+    position: absolute;
+    right: 80px;
+    top: 100px;
+}
+
+#section-1{
+    margin-top: 250px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.text-sect1{
+    padding-top: 50px;
+}
+
+.h2-sect{
+    font-family: tajawal;
+    color: var(--font1st);
+    font-size: 44px;
+}
+
+.img-farmer{
+    width: 100%;
+}
+
+.my-hr{
+    border: none;
+    background-color: var(--second);
+    width: 150px;
+    height: 5px;
+}
+
+#section-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 150px;
+}
+
+.text-sect2{
+    margin-top: 80px;
+}
+
+.img-tomato1{
+    position: absolute;
+    right: 100px;
+    top: 350px;
+}
+
+.img-download{
+    margin-top: 50px;
+}
+
+#section-3{
+    margin-top: 80px;
+    width: 75%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sect3-container{
+    display: grid;
+    grid-template-columns: 31% 32% 31%;
+    grid-gap: 2%;
+    margin-top: 50px;
+}
+
+.card-container{
+    border: 1px solid var(--second);
+    border-radius: 50px;
+    padding: 40px;
+    padding-bottom: 120px;
+}
+
+.text-card{
+    font-family: 'open sans';
+    color: var(--font2nd);
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 191%;
+}
+
+.img-card{
+    position: relative;
+    margin: -40px 90px;
+}
+
+.alt-card{
+    font-family: 'open sans';
+    font-size: 12px;
+    font-style: italic;
+    color: var(--font2nd);
+}
+
