@@ -1,316 +1,387 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Dosis&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Dosis&display=swap");
 
-.navigation{
-    position: fixed;
-    display: grid;
-    grid-template-columns: 10% 60% 10% 10% 10%;
-    text-align: center;
-    width: 85%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 20px 0;
-    background-color: #fff;
-    z-index: 1;
+.navigation {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 10% 60% 10% 10% 10%;
+  text-align: center;
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 0;
+  background-color: #fff;
+  z-index: 1;
 }
 
-.menu{
-    font-family: 'Dosis', sans-serif;
-    color: rgb(53, 53, 53);
+.menu {
+  font-family: "Dosis", sans-serif;
+  color: rgb(53, 53, 53);
 }
 
-.banner{
-    width: 85%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: grid;
-    grid-template-columns: 60% 40%;
-    padding-top: 70px;
+.banner {
+  width: 85%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding-top: 70px;
 }
 
-.h-banner{
-    text-align: right;
-    font-size: 4rem;
-    font-family: 'Cormorant Garamond', serif;
-    padding: 70px 40px 0 0;
-    color: rgba(0, 0, 0, 0.815)
+.h-banner {
+  text-align: right;
+  font-size: 4rem;
+  font-family: "Cormorant Garamond", serif;
+  padding: 70px 40px 0 0;
+  color: rgba(0, 0, 0, 0.815);
 }
 
-.img-banner{
-    position: relative;
-    width: 100%;
+.img-banner {
+  position: relative;
+  width: 100%;
 }
 
-.h-portfolio{
-    font-size: 3rem;
-    font-family: 'Dosis', sans-serif;
-    color: rgba(0, 0, 0, 0.815);
-    padding-top: 100px;
-    text-align: center;
+.h-portfolio {
+  font-size: 3rem;
+  font-family: "Dosis", sans-serif;
+  color: rgba(0, 0, 0, 0.815);
+  padding-top: 100px;
+  text-align: center;
 }
 
-.portfolio-item{
-    width: 80%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 40px 0;
+.portfolio-item {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 40px 0;
 }
 
-.img-portfolio{
-    width: 100%
+.img-portfolio {
+  width: 100%;
 }
 
-.btn-banner{
-    background-color: rgba(0, 0, 0, 0.815);
-    color: #fff;
-    padding: 15px 40px;
-    font-family: 'dosis', sans-serif;
-    float: right;
-    margin: 60px 40px 0 0;
+.btn-banner {
+  background-color: rgba(0, 0, 0, 0.815);
+  color: #fff;
+  padding: 15px 40px;
+  font-family: "dosis", sans-serif;
+  float: right;
+  margin: 60px 40px 0 0;
 }
 
-.alt-text{
-    font-family: 'Dosis', sans-serif;
-    padding-top: 10px;
-    color: rgba(0, 0, 0, 0.589);
+.alt-text {
+  font-family: "Dosis", sans-serif;
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.589);
 }
 
-.h-skils{
-    font-size: 3rem;
-    font-family: 'Dosis', sans-serif;
-    color: rgba(0, 0, 0, 0.815);
-    padding: 80px 0 50px 0;
-    text-align: center;
+.h-skils {
+  font-size: 3rem;
+  font-family: "Dosis", sans-serif;
+  color: rgba(0, 0, 0, 0.815);
+  padding: 80px 0 50px 0;
+  text-align: center;
 }
 
-.skils-item{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(7, 14%);
+.skils-item {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(7, 14%);
 }
 
-.img-skils{
-    height: 80px;
+.img-skils {
+  height: 80px;
 }
 
-#contact{
-    margin-top: 150px;
+#contact {
+  margin-top: 150px;
 }
 
-.contact-container{
-    width: 80%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
+.contact-container {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
 }
 
-.h-contact{
-    font-size: 6rem;
-    font-family: 'cormorant garamond', serif;
-    position: relative;
-    color: rgba(0, 0, 0, 0.836);
-    text-align: right;
-    padding-right: 30px;
+.h-contact {
+  font-size: 6rem;
+  font-family: "cormorant garamond", serif;
+  position: relative;
+  color: rgba(0, 0, 0, 0.836);
+  text-align: right;
+  padding-right: 30px;
 }
 
-.item-contact{
-    margin: 25px 0;
+.item-contact {
+  margin: 25px 0;
 }
 
-.h-item{
-    font-size: 10pt;
-    font-family: 'dosis', sans-serif;
-    color: rgba(0, 0, 0, 0.486);
-    font-weight: 800;
+.h-item {
+  font-size: 10pt;
+  font-family: "dosis", sans-serif;
+  color: rgba(0, 0, 0, 0.486);
+  font-weight: 800;
 }
 
-.text-contact{
-    font-size: 16pt;
-    font-family: 'dosis', sans-serif;
-    color: rgba(0, 0, 0, 0.877);
+.text-contact {
+  font-size: 16pt;
+  font-family: "dosis", sans-serif;
+  color: rgba(0, 0, 0, 0.877);
 }
 
-.social{
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-    width: 10%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 50px;
+.social {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  width: 10%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
 }
 
-.img-social{
-    width: 100%;
+.img-social {
+  width: 100%;
 }
 
-#footer{
-    background-color: rgba(0, 0, 0, 0.87);
-    color: rgba(255, 255, 255, 0.514);
-    font-family: 'dosis', sans-serif;
-    font-size: 10pt;
-    padding: 15px 0;
-    margin-top: 50px;
-    text-align: center;
+#footer {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: rgba(255, 255, 255, 0.514);
+  font-family: "dosis", sans-serif;
+  font-size: 10pt;
+  padding: 15px 0;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .nav {
-    height: 50px;
-    width: 100%;
-    background-color: #ffffff;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .nav > .nav-header {
-    display: inline;
-  }
-  
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 22px;
-    color: rgba(0, 0, 0, 0.808);
-    padding: 10px 10px 10px 10px;
-    font-family: 'dosis', sans-serif;
-  }
-  
-  .nav > .nav-btn {
-    display: none;
-  }
-  
-  .nav > .nav-links {
-    display: inline;
-    float: right;
-    font-size: 18px;
-    font-family: 'dosis', sans-serif;
-  }
-  
-  .nav > .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    text-decoration: none;
-    color: #000000bd;
-  }
-  
-  .nav > #nav-check {
-    display: none;
-  }
-
-@media only screen and (max-width: 920px){
-
-    .navigation{
-        width: 100%;
-        display: block;
-        position: fixed;
-        transition: 0.25s;
-    }
-
-    .banner{
-        display: flex;
-        flex-direction: column-reverse;
-        padding-top: 20px;
-        width: 90%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .h-banner{
-        text-align: center;
-        font-size: 2.5rem;
-        padding: 20px 0;
-    }
-
-    .btn-banner{
-        margin: 20px 0;
-        float: left;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .skils-item{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-gap: 20px;
-    }
-
-    .img-skils{
-        width: 80%;
-        height: 90%;
-    }
-
-    .contact-container{
-        display: block;
-    }
-
-    .h-contact{
-        font-size: 4rem;
-        text-align: left;
-    }
-
-    .social{
-        width: 40%;
-    }
-
-    .nav > .nav-btn {
-        display: inline-block;
-        position: absolute;
-        right: 0px;
-        top: 0px;
-    }
-    .nav > .nav-btn > label {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-        background-color: rgb(255, 255, 255);
-    }
-    .nav > .nav-btn > label > span {
-        display: block;
-        width: 25px;
-        height: 10px;
-        border-top: 2px solid rgba(0, 0, 0, 0.726);
-    }
-    .nav > .nav-links {
-        position: absolute;
-        display: block;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.897);
-        height: 0px;
-        transition: all 0.3s ease-in;
-        overflow-y: hidden;
-        top: 50px;
-        left: 0px;
-    }
-    .nav > .nav-links > a {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-        height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-        height: calc(100vh - 50px);
-        overflow-y: auto;
-    }
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
 }
 
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.808);
+  padding: 10px 10px 10px 10px;
+  font-family: "dosis", sans-serif;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+  font-family: "dosis", sans-serif;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #000000bd;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+.breadcumb {
+  padding-top: 80px;
+}
+
+#case-sect-1 {
+  padding: 20px 0;
+}
+
+.page {
+  width: 60%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#case-sect-2 {
+  padding-top: 50px;
+}
+
+.text-primary {
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(83, 83, 83);
+  line-height: 35px;
+}
+
+#case-sect-3 {
+  padding: 60px 0 0 0;
+}
+
+.h3-heading-case {
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: rgb(53, 53, 53);
+  padding-bottom: 20px;
+}
+
+#case-sect-4 {
+  padding: 60px 0 0 0;
+}
+
+#case-sect-6 {
+  margin: 60px 0;
+}
+
+.btn-primary {
+  background-color: rgba(0, 0, 0, 0.815);
+  color: #fff;
+  padding: 15px 40px;
+  font-family: "dosis", sans-serif;
+  position: relative;
+}
+
+.text-role {
+  padding-bottom: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  color: rgb(60, 60, 218);
+}
+
+.h4-heading-case {
+  font-size: 1.25em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #525252;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 920px) {
+  .navigation {
+    width: 100%;
+    display: block;
+    position: fixed;
+    transition: 0.25s;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .h-banner {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px 0;
+  }
+
+  .btn-banner {
+    margin: 20px 0;
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .skils-item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+  }
+
+  .img-skils {
+    width: 80%;
+    height: 90%;
+  }
+
+  .contact-container {
+    display: block;
+  }
+
+  .h-contact {
+    font-size: 4rem;
+    text-align: left;
+  }
+
+  .social {
+    width: 40%;
+  }
+
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgb(255, 255, 255);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid rgba(0, 0, 0, 0.726);
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.897);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  .page {
+    width: 90%;
+  }
+}
