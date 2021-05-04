@@ -29,6 +29,7 @@ body {
 
 .img-banner {
   position: absolute;
+  width: 40%;
 }
 
 .heading-banner {
@@ -232,6 +233,37 @@ body {
   font-size: 8pt;
   padding: 10px;
   color: var(--font1st);
+}
+
+@media only screen and (max-width: 920px) {
+  .img-banner {
+    width: 45%;
+    top: 10%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .img-mockup {
+    width: 80%;
+  }
+
+  .img-tomato1 {
+    display: none;
+  }
+
+  .text-sect2 {
+    margin: 0;
+  }
+
+  .img-download {
+    width: 80%;
+  }
+
+  #section-3 {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
