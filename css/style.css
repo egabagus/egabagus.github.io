@@ -77,7 +77,12 @@ html {
   padding: 15px 40px;
   font-family: "dosis", sans-serif;
   float: right;
-  margin: 60px 40px 0 0;
+  transition: 0.25s;
+}
+
+.btn-banner:hover {
+  background-color: rgb(19, 19, 19);
+  color: #fff;
 }
 
 .alt-text {
@@ -280,6 +285,57 @@ html {
   padding-bottom: 10px;
 }
 
+.button-see {
+  background-color: rgba(0, 0, 0, 0.815);
+  color: #fff;
+  padding: 12px 30px;
+  font-family: "dosis", sans-serif;
+  float: right;
+  margin-top: -20px;
+}
+
+.btnku {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  margin-bottom: 30px;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 15px 40px;
+  font-family: "dosis", sans-serif;
+  color: #000;
+  transition: 0.25s;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(31, 31, 31);
+  color: #fff;
+}
+
+.btn-hero {
+  display: grid;
+  grid-template-columns: 48% 52%;
+  width: 58%;
+  margin: 60px 70px 0 0;
+  grid-gap: 30px;
+  float: right;
+}
+
+.social-menus {
+  width: 40%;
+  float: right;
+  display: grid;
+  position: relative;
+  grid-template-columns: 30% 30% 30%;
+  margin-top: 100px;
+}
+
+.btn-secondary {
+  margin-top: 0;
+}
+
 @media only screen and (max-width: 920px) {
   .navigation {
     width: 100%;
@@ -383,5 +439,23 @@ html {
 
   .page {
     width: 90%;
+  }
+
+  .btn-hero {
+    display: block;
+    width: 100%;
+    float: none;
+    margin: 40px 0;
+    grid-gap: 0;
+    text-align: center;
+  }
+
+  .btn-secondary {
+    margin-top: 30px;
+  }
+
+  .social-menus {
+    width: 100%;
+    float: none;
   }
 }
