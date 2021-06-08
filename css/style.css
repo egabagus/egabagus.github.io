@@ -369,13 +369,13 @@ html {
 
   .skils-item {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 20px;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 10px;
   }
 
   .img-skils {
-    width: 80%;
-    height: 90%;
+    width: 40px;
+    height: auto;
   }
 
   .contact-container {
